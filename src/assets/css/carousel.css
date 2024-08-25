@@ -1,0 +1,20 @@
+.carousel-container {
+    max-width: 600px; /* Ajusta el tamaño según sea necesario */
+    margin: 0 auto; /* Centra el carrusel en la pantalla */
+  }
+  
+  .carousel-item img {
+    height: 300px; /* Ajusta la altura según sea necesario */
+    object-fit: cover; /* Asegura que las imágenes se vean bien dentro del contenedor */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+    padding: 10px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados para un mejor aspecto */
+  }
+  
+  .carousel img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+  }
+  
