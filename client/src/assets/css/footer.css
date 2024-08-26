@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "garamond", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background-color: #222020;
+  padding: 0 15px;
+}
+
+.footer-container h2 {
+  color: white;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  color: white;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: white;
+}

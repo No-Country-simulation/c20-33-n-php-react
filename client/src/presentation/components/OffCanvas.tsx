@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Button, NavDropdown, Offcanvas } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
+import "../../assets/css/offcanvas.css";
+
 export const OffCanvas = () => {
   const [show, setShow] = useState(false);
 
@@ -9,7 +11,7 @@ export const OffCanvas = () => {
 
   return (
     <>
-      <Button variant="light" onClick={toggleShow}>
+      <Button className="menu-button" onClick={toggleShow}>
         <i className="bi bi-list"></i>
       </Button>
 
