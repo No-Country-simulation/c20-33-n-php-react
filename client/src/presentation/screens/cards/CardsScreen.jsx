@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
 import { CardDetails } from "./CardDetails";
 import { useCardSelection } from "../../hook/useCardSelection";
+import "../../../assets/css/cardscreen.css";
 
 export const CardsScreen = ({ cardsData }) => {
   const { selectedCard, selectCard, resetCardSelection } = useCardSelection();
@@ -9,9 +9,9 @@ export const CardsScreen = ({ cardsData }) => {
   return (
     <div>
       {!selectedCard ? (
-        <CardGroup>
+        <div className="cards-container">
           {cardsData.map((card, index) => (
-            <Card key={index} onClick={() => selectCard(card)}>
+            <Card key={index} className="card" onClick={() => selectCard(card)}>
               <Card.Img variant="top" src={card.image} />
               <Card.Body>
                 <Card.Title>{card.title}</Card.Title>
@@ -19,7 +19,7 @@ export const CardsScreen = ({ cardsData }) => {
               </Card.Body>
             </Card>
           ))}
-        </CardGroup>
+        </div>
       ) : (
         <div>
           <CardDetails card={selectedCard} />

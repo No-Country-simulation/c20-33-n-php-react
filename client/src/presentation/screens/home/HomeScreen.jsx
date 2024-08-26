@@ -1,6 +1,7 @@
 import { CarouselApp } from "../../components/carousel/CarouselApp";
 import { CardsScreen } from "../cards/CardsScreen";
 import "../../../assets/css/home.css";
+import { RedesSociales } from "../../components/RedesSociales";
 
 export const HomeScreen = () => {
   // Datos para las cards
@@ -22,6 +23,9 @@ export const HomeScreen = () => {
     <>
       <section className="home-section">
         <CarouselApp />
+      </section>
+      <section className="home-section">
+        <RedesSociales />
       </section>
       <section className="home-section">
         <CardsScreen cardsData={cardsData} />

@@ -1,0 +1,76 @@
+.bi-facebook {
+  color: #3b5998;
+}
+.bi-instagram {
+  background: radial-gradient(
+    circle at 30% 30%,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem; /* Tamaño del icono */
+  color: white; /* Color del icono */
+}
+.bi-instagram:hover {
+  background: radial-gradient(
+    circle at 30% 30%,
+    #4f5bd5,
+    #962fbf,
+    #d62976,
+    #fa7e1e,
+    #feda75
+  );
+  transition: background 0.3s ease;
+}
+.bi-twitter-x {
+  color: #00acee;
+}
+
+.bi-youtube {
+  color: #ff0000;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-twitter-x,
+.bi-youtube {
+  font-size: 60px;
+}
+
+.bi-facebook:hover,
+.bi-twitter-x:hover,
+.bi-youtube:hover {
+  color: #000;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.redes-sociales h2 {
+  color: #333131;
+  font-size: 25px;
+}
+
+.redes-sociales a {
+  text-decoration: none;
+}
+
+.redes-sociales-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  gap: 20px;
+}
