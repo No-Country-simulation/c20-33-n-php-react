@@ -1,14 +1,9 @@
-# MercadoArtesano
-MercadoArtesano es una plataforma en línea que conecta a artesanos con compradores  ofreciendo un espacio único para descubrir y adquirir productos artesanales de alta calidad. 
+## Artesanías Latinas
+Artesanías Latinas es una plataforma en línea que conecta a artesanos con compradores  ofreciendo un espacio único para descubrir y adquirir productos artesanales de alta calidad. 
 Esta plataforma permite a los artesanos crear y gestionar sus tiendas virtuales, y a los compradores buscar, comparar y adquirir productos únicos. Nuestro objetivo es promover el 
 comercio justo y apoyar a los artesanos locales
 
-
-
-
-
-## Funcionalidades
-
+## Funcionalidades 
 
 - Registro y autenticación: Permitir a los usuarios registrarse y crear una cuenta.
 
@@ -95,8 +90,8 @@ Project Manager
 
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
-## Agradecimientos
+## Agradecimientos 🎁
 
- - [No country](https://www.nocountry.tech/)
+ - Nuestros más sinceros agradecimientos a [No country](https://www.nocountry.tech/) por la oportunidad de hacer parte de este viaje!
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
