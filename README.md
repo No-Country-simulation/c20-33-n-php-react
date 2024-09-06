@@ -1,6 +1,6 @@
 ![](https://github.com/No-Country-simulation/c20-33-n-php-react/blob/main/Marketplace.png)
-## Artesanías Latinas
-Artesanías Latinas es una plataforma en línea que conecta a artesanos con compradores  ofreciendo un espacio único para descubrir y adquirir productos artesanales de alta calidad. 
+## Vitrina
+Vitrina es una plataforma en línea que conecta a artesanos con compradores  ofreciendo un espacio único para descubrir y adquirir productos artesanales de alta calidad. 
 Esta plataforma permite a los artesanos crear y gestionar sus tiendas virtuales, y a los compradores buscar, comparar y adquirir productos únicos. Nuestro objetivo es promover el 
 comercio justo y apoyar a los artesanos locales
 
@@ -41,9 +41,8 @@ A continuación se presentan los detalles de las dependencias y scripts incluido
 
 Clona el repositorio.
  ```
-
+git clone -b main https://github.com/No-Country-simulation/c20-33-n-php-react
  ```
-
 
 Dependencias
 
@@ -79,23 +78,23 @@ Scripts
 
 ## Instalación 🔧
 
+Front end
 
-
-2. Para instalar las dependencias ejecuta:
+1. Para instalar las dependencias ejecuta:
  ```
 npm install
 ```
-3. Para iniciar el servidor de desarrollo ejecuta:
+2. Para iniciar el servidor de desarrollo ejecuta:
 
  ```
 npm run dev
  ```
-4. Compila el código CSS usando Tailwindcss:
+3. Compila el código CSS usando Tailwindcss:
 
  ```
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
  ```
-
+Back end
 
 ## Despliegue 📦
 _Agrega notas adicionales sobre como hacer deploy_
@@ -111,6 +110,16 @@ Para correr el test, ejecuta el siguiente comando
 ## Wiki 📖
 
 Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/No-Country-simulation/c20-33-n-php-react/wiki)
+
+## Contribución
+
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tus cambios (`git checkout -b feature/nueva-funcionalidad`).
+3. Haz commit de tus cambios (`git commit -m 'Agrega nueva funcionalidad'`).
+4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
 ## Autores ✒️
 
