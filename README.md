@@ -32,28 +32,70 @@ comercio justo y apoyar a los artesanos locales
 
 - **Base de Datos:** MySql
 
-## Comenzando 🚀
+## Comenzando - Estructura del proyecto 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Despliegue** para conocer como desplegar el proyecto.
+El proyecto está organizado utilizando módulos de ES, con scripts para desarrollo, construcción, y análisis de código. 
+A continuación se presentan los detalles de las dependencias y scripts incluidos.
 
 ## Pre-requisitos instalación 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Clona el repositorio.
+ ```
 
-```
-Da un ejemplo
-```
+ ```
+
+
+Dependencias
+
+- **`prop-types`**: ^15.8.1
+- **`react`**: ^18.3.1
+- **`react-dom`**: ^18.3.1
+- **`react-router-dom`**: ^6.26.1
+
+Dependencias de Desarrollo
+
+- **`@eslint/js`**: ^9.9.0
+- **`@types/react`**: ^18.3.3
+- **`@types/react-dom`**: ^18.3.0
+- **`@vitejs/plugin-react`**: ^4.3.1
+- **`autoprefixer`**: ^10.4.20
+- **`eslint`**: ^9.9.0
+- **`eslint-plugin-react`**: ^7.35.0
+- **`eslint-plugin-react-hooks`**: ^5.1.0-rc.0
+- **`eslint-plugin-react-refresh`**: ^0.4.9
+- **`globals`**: ^15.9.0
+- **`postcss`**: ^8.4.41
+- **`tailwindcss`**: ^3.4.10
+- **`vite`**: ^5.4.1
+
+Scripts
+
+- **`dev`**: Inicia el servidor de desarrollo con Vite.
+- **`build`**: Construye el proyecto para producción utilizando Vite.
+- **`lint`**: Analiza el código utilizando ESLint para mantener la calidad.
+- **`preview`**: Previsualiza la versión construida del proyecto.
+
+
 
 ## Instalación 🔧
 
-Instalando el proyecto con npm
 
-```bash
-  npm install my-project
-  cd my-project
+
+2. Para instalar las dependencias ejecuta:
+ ```
+npm install
 ```
+3. Para iniciar el servidor de desarrollo ejecuta:
+
+ ```
+npm run dev
+ ```
+4. Compila el código CSS usando Tailwindcss:
+
+ ```
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+ ```
+
 
 ## Despliegue 📦
 _Agrega notas adicionales sobre como hacer deploy_
