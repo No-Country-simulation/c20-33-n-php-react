@@ -1,6 +1,6 @@
 ![](https://github.com/No-Country-simulation/c20-33-n-php-react/blob/main/Marketplace.png)
-## Artesanías Latinas
-Artesanías Latinas es una plataforma en línea que conecta a artesanos con compradores  ofreciendo un espacio único para descubrir y adquirir productos artesanales de alta calidad. 
+## Vitrina.
+Vitrina es una plataforma en línea que conecta a artesanos con compradores  ofreciendo un espacio único para descubrir y adquirir productos artesanales de alta calidad. 
 Esta plataforma permite a los artesanos crear y gestionar sus tiendas virtuales, y a los compradores buscar, comparar y adquirir productos únicos. Nuestro objetivo es promover el 
 comercio justo y apoyar a los artesanos locales
 
@@ -32,28 +32,69 @@ comercio justo y apoyar a los artesanos locales
 
 - **Base de Datos:** MySql
 
-## Comenzando 🚀
+## Comenzando - Estructura del proyecto 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Despliegue** para conocer como desplegar el proyecto.
+El proyecto está organizado utilizando módulos de ES, con scripts para desarrollo, construcción, y análisis de código. 
+A continuación se presentan los detalles de las dependencias y scripts incluidos.
 
 ## Pre-requisitos instalación 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Clona el repositorio.
+ ```
+git clone -b main https://github.com/No-Country-simulation/c20-33-n-php-react
+ ```
 
-```
-Da un ejemplo
-```
+Dependencias
+
+- **`prop-types`**: ^15.8.1
+- **`react`**: ^18.3.1
+- **`react-dom`**: ^18.3.1
+- **`react-router-dom`**: ^6.26.1
+
+Dependencias de Desarrollo
+
+- **`@eslint/js`**: ^9.9.0
+- **`@types/react`**: ^18.3.3
+- **`@types/react-dom`**: ^18.3.0
+- **`@vitejs/plugin-react`**: ^4.3.1
+- **`autoprefixer`**: ^10.4.20
+- **`eslint`**: ^9.9.0
+- **`eslint-plugin-react`**: ^7.35.0
+- **`eslint-plugin-react-hooks`**: ^5.1.0-rc.0
+- **`eslint-plugin-react-refresh`**: ^0.4.9
+- **`globals`**: ^15.9.0
+- **`postcss`**: ^8.4.41
+- **`tailwindcss`**: ^3.4.10
+- **`vite`**: ^5.4.1
+
+Scripts
+
+- **`dev`**: Inicia el servidor de desarrollo con Vite.
+- **`build`**: Construye el proyecto para producción utilizando Vite.
+- **`lint`**: Analiza el código utilizando ESLint para mantener la calidad.
+- **`preview`**: Previsualiza la versión construida del proyecto.
+
+
 
 ## Instalación 🔧
 
-Instalando el proyecto con npm
+Front end
 
-```bash
-  npm install my-project
-  cd my-project
+1. Para instalar las dependencias ejecuta:
+ ```
+npm install
 ```
+2. Para iniciar el servidor de desarrollo ejecuta:
+
+ ```
+npm run dev
+ ```
+3. Compila el código CSS usando Tailwindcss:
+
+ ```
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+ ```
+Back end
 
 ## Despliegue 📦
 _Agrega notas adicionales sobre como hacer deploy_
@@ -69,6 +110,16 @@ Para correr el test, ejecuta el siguiente comando
 ## Wiki 📖
 
 Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/No-Country-simulation/c20-33-n-php-react/wiki)
+
+## Contribución
+
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tus cambios (`git checkout -b feature/nueva-funcionalidad`).
+3. Haz commit de tus cambios (`git commit -m 'Agrega nueva funcionalidad'`).
+4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
 ## Autores ✒️
 
