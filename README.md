@@ -128,15 +128,19 @@ UX/UI
 - [Sofi Avila]()
   
 Front end
-- [Andres Lopez]()
-- [Diego Cabre]()
+- [Diego Cabre ]()
+- [Julio Maquera]()
 
 Back end
-- [Edinson Gualle]()
 - [Riardo Nahuel]()
+- [Edinson Gualle]()
+
 
 Project Manager
 - [Jose Paternina](https://www.linkedin.com/in/josepaterninaorozco/)
+
+Team Leader
+- [Esteban Gonzalez]()
 
 ## Licencia 📄
 
