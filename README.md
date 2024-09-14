@@ -1,5 +1,5 @@
-![](https://github.com/No-Country-simulation/c20-33-n-php-react/blob/main/Marketplace.png)
-## Vitrina.
+![](https://github.com/No-Country-simulation/c20-33-n-php-react/blob/main/logo_vitrina_azul.png)
+
 Vitrina es una plataforma en línea que conecta a artesanos con compradores  ofreciendo un espacio único para descubrir y adquirir productos artesanales de alta calidad. 
 Esta plataforma permite a los artesanos crear y gestionar sus tiendas virtuales, y a los compradores buscar, comparar y adquirir productos únicos. Nuestro objetivo es promover el 
 comercio justo y apoyar a los artesanos locales
