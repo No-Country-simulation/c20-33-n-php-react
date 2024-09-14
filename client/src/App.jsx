@@ -1,17 +1,17 @@
 import { Footer } from "./presentation/components/Footer";
 import { Header } from "./presentation/components/Header";
-import { Menu } from "./presentation/components/Menu";
-import WhattsApp from "./presentation/components/whatsapp/WhatsApp";
-import { AppRoutes } from "./routes/AppRoutes";
+import { AppRoutes } from "./presentation/routes/AppRoutes";
+import "flowbite/dist/flowbite.css";
+
 
 export const App = () => {
   return (
-    <>
+    <div className="bg-gradientPrimary  min-h-screen flex flex-col">
       <Header />
-      <Menu />
-      <AppRoutes />
-      <WhattsApp />
+      <main className="flex-grow">
+        <AppRoutes />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 };

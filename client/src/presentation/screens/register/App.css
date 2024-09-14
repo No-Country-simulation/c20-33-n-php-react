@@ -1,0 +1,19 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+/* Solo borde en la parte inferior */
+input {
+  border: none; /* Elimina bordes en todos los lados */
+  border-bottom: 2px solid grey; /* Aplica el borde solo en la parte inferior */
+}
+
+input:focus {
+  border-bottom-color: #ff8c00; /* Color personalizado en foco */
+}

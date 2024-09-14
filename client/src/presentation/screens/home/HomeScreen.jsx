@@ -1,35 +1,33 @@
-import { CarouselApp } from "../../components/carousel/CarouselApp";
-import { CardsScreen } from "../cards/CardsScreen";
-import "../../../assets/css/home.css";
-import { RedesSociales } from "../../components/RedesSociales";
+import { Cards } from "../../components/Cards";
 
 export const HomeScreen = () => {
-  // Datos para las cards
-  const cardsData = [
-    {
-      title: "Card 1",
-      description: "This is the description for card 1.",
-      image: "../../../../public/img/logo2.jpeg",
-    },
-    {
-      title: "Card 2",
-      description: "This is the description for card 2.",
-      image: "../../../../public/img/logo3.jpeg",
-    },
-    // Añade más cards aquí según lo necesites
-  ];
-
   return (
-    <>
-      <section className="home-section">
-        <CarouselApp />
+    <div>
+      <section>
       </section>
-      <section className="home-section">
-        <RedesSociales />
+      <section
+        className="relative h-screen bg-cover bg-center mx-auto"
+        style={{
+          backgroundImage: "url('./src/assets/img/vitrina2.jpg')",
+          backgroundAttachment: "fixed", // Efecto de paralaje
+        }}
+      >
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <h2 className="text-white text-4xl sm:text-6xl font-bold">VITRINA</h2>
+        </div>
       </section>
-      <section className="home-section">
-        <CardsScreen cardsData={cardsData} />
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-4">
+        <Cards label="Ofertas" />
+        <Cards label="Novedades" />
+        <Cards label="Lo que dicen nuestros clientes" />
+        <Cards label="Lo que dicen nuestros clientes" />
       </section>
-    </>
+      <section className="p-4">
+        <h2 className="text-2xl font-bold">Novedades</h2>
+      </section>
+      <section className="p-4">
+        <h2 className="text-2xl font-bold">Lo que dicen nuestros clientes</h2>
+      </section>
+    </div>
   );
 };
