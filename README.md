@@ -135,7 +135,6 @@ Back end
 - [Riardo Nahuel]()
 - [Edinson Gualle]()
 
-
 Project Manager
 - [Jose Paternina](https://www.linkedin.com/in/josepaterninaorozco/)
 
