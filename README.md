@@ -44,6 +44,21 @@ Clona el repositorio.
 git clone -b main https://github.com/No-Country-simulation/c20-33-n-php-react
  ```
 
+Instalar laragon
+
+  https://laragon.org/download/
+
+
+Instalar PHP 8.2
+
+ https://windows.php.net/download#php-8.2
+
+Crear base de datos Mysql con nombre marketplace
+
+ ```
+ create database marketplace;
+```
+
 Dependencias
 
 - **`prop-types`**: ^15.8.1
@@ -78,6 +93,28 @@ Scripts
 
 ## Instalación 🔧
 
+Back end
+
+1. Instalar dependencias:
+ ```
+composer install 
+```
+2. Migrar el esquema de la base de datos y poblarla:
+
+ ```
+php artisan migrate:refresh --seed 
+ ```
+3. Limpiar el caché:
+
+ ```
+php artisan optimize:clear 
+ ```
+4. Iniciar el servidor:
+
+ ```
+php artisan serve 
+ ```
+
 Front end
 
 1. Para instalar las dependencias ejecuta:
@@ -94,7 +131,6 @@ npm run dev
  ```
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
  ```
-Back end
 
 ## Despliegue 📦
 _Agrega notas adicionales sobre como hacer deploy_
@@ -149,5 +185,3 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 ## Agradecimientos 🎁
 
  - Nuestros más sinceros agradecimientos a [No country](https://www.nocountry.tech/) por la oportunidad de hacer parte de este viaje!
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
