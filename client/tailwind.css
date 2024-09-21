@@ -1,0 +1,51 @@
+
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+
+:root {
+  --acento: rgba(250, 204, 21, 1);
+  --black: rgba(17, 19, 21, 1);
+  --color-primario: rgba(58, 126, 187, 1);
+  --color-secundario: rgba(140, 196, 229, 1);
+  --extendedffffff: rgba(255, 255, 255, 1);
+  --heading-desktop-h4-font-family: "Roboto", Helvetica;
+  --heading-desktop-h4-font-size: 32px;
+  --heading-desktop-h4-font-style: normal;
+  --heading-desktop-h4-font-weight: 700;
+  --heading-desktop-h4-letter-spacing: 0px;
+  --heading-desktop-h4-line-height: 130%;
+  --heading-desktop-h5-font-family: "Roboto", Helvetica;
+  --heading-desktop-h5-font-size: 24px;
+  --heading-desktop-h5-font-style: normal;
+  --heading-desktop-h5-font-weight: 700;
+  --heading-desktop-h5-letter-spacing: 0px;
+  --heading-desktop-h5-line-height: 140%;
+  --m3-elevation-light-5: 0px 4px 4px 0px rgba(0, 0, 0, 0.3), 0px 8px 12px 6px rgba(0, 0, 0, 0.15);
+  --m3-label-large-font-family: "Roboto", Helvetica;
+  --m3-label-large-font-size: 14px;
+  --m3-label-large-font-style: normal;
+  --m3-label-large-font-weight: 400;
+  --m3-label-large-letter-spacing: 0.10000000149011612px;
+  --m3-label-large-line-height: 20px;
+  --neutral-3: rgba(245, 245, 245, 1);
+  --off-white: rgba(250, 249, 246, 1);
+  --primary-6: rgba(24, 144, 255, 1);
+  --red: rgba(236, 101, 77, 1);
+  --small-text-font-family: "Raleway", Helvetica;
+  --small-text-font-size: 11px;
+  --small-text-font-style: normal;
+  --small-text-font-weight: 400;
+  --small-text-letter-spacing: 0px;
+  --small-text-line-height: normal;
+  --text-large-normal-font-family: "Roboto", Helvetica;
+  --text-large-normal-font-size: 20px;
+  --text-large-normal-font-style: normal;
+  --text-large-normal-font-weight: 400;
+  --text-large-normal-letter-spacing: 0px;
+  --text-large-normal-line-height: 150%;
+}
