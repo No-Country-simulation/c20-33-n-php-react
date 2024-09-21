@@ -133,7 +133,7 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
  ```
 
 ## Despliegue 📦
-_Agrega notas adicionales sobre como hacer deploy_
+_Puedes hacer el despliegue de acuerdo a tus preferencias_
 
 
 ## Ejecutando las pruebas ⚙️
